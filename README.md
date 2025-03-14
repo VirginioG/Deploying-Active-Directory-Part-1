@@ -3,7 +3,7 @@
 </p>
 
 <h1>Deploying-Active-Directory-Part-1</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+This tutorial guides you through setting up a Domain Controller (DC) using Active Directory Domain Services (AD DS) in a Windows Server environment. It covers creating organizational units (OUs), establishing a domain admin user, and joining a client machine (Client-1) to the domain. Finally, the tutorial helps you organize and manage domain users and computers within Active Directory for better administration. <br />
 
 
 <h2>Video Demonstration</h2>
