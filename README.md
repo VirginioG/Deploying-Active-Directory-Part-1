@@ -25,10 +25,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Log into DC-1, install Active Directory Domain Services, and promote it as a Domain Controller with a new forest (e.g., mydomain.com). After restarting, log back in using mydomain.com\labuser.
-- In Active Directory Users and Computers (ADUC), create Organizational Units (_EMPLOYEES and _ADMINS) and a domain admin user jane_admin with password Cyberlab123!. Add this user to the Domain Admins group, log out, and log back in as jane_admin.
-- Set Client-1’s DNS to DC-1’s IP, restart it, and join it to the domain using the original local admin account. Verify its presence in ADUC, create the _CLIENTS OU, and move Client-1 there.
-- Enable Remote Desktop on Client-1 for domain users. Using PowerShell, create multiple users and verify their creation in the _EMPLOYEES OU. Test logging into Client-1 with one of the new user accounts.
+- Log into DC-1, install Active Directory Domain Services, and promote it as a Domain Controller with a new forest (e.g., mydomain.com). After a restart, log back in as mydomain.com\labuser.
+- In Active Directory Users and Computers (ADUC), create OUs _EMPLOYEES and _ADMINS. Create a user jane_admin with password Cyberlab123!, add them to the Domain Admins group, and then log out. Log back in as mydomain.com\jane_admin and use this account as the admin moving forward.
+- Set Client-1's DNS to DC-1’s private IP (already done), restart Client-1, and log in as the local admin (labuser). Join Client-1 to the domain, restart, and verify it shows up in ADUC. Create an OU _CLIENTS and move Client-1 into it.
 
 <h2>Actions and Observations</h2>
 
