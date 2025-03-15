@@ -19,8 +19,8 @@ This tutorial guides you through setting up a Domain Controller (DC) using Activ
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 (21H2)
-- Ubuntu Server 20.04
+-Windows Server 2022
+-Windows 10 (21H2)
 
 <h2>High-Level Steps</h2>
 
