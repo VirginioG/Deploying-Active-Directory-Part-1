@@ -12,14 +12,19 @@ This tutorial guides you through setting up a Domain Controller (DC) using Activ
 
 <h2>Environments and Technologies Used</h2>
 
--Microsoft Azure (Virtual Machines/Compute)
+-Microsoft Azure (Virtual Machines/Computer)
+
 -Remote Desktop
+
 -Active Directory Domain Services
+
 -Active Directory Users and Computers
+
 
 <h2>Operating Systems Used </h2>
 
 -Windows Server 2022
+
 -Windows 10 (21H2)
 
 <h2>High-Level Steps</h2>
