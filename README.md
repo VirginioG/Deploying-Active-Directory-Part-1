@@ -12,11 +12,10 @@ This tutorial guides you through setting up a Domain Controller (DC) using Activ
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
-- Wireshark (Protocol Analyzer)
+-Microsoft Azure (Virtual Machines/Compute)
+-Remote Desktop
+-Active Directory Domain Services
+-Active Directory Users and Computers
 
 <h2>Operating Systems Used </h2>
 
