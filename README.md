@@ -77,7 +77,27 @@ After the restart, log into DC-1 as mydomain.com\labuser.
 
 </p>
 <p>
+Open Active Directory Users and Computers (ADUC).
 
+Right-click on the domain name (mydomain.com) and select New > Organizational Unit.
+
+Create an OU named _EMPLOYEES.
+
+Create another OU named _ADMINS.
+
+Right-click on the _ADMINS OU, select New > User.
+
+Name the user Jane Doe with the username jane_admin.
+
+Set the password as Cyberlab123!.
+
+Click Next and finish creating the user.
+
+In ADUC, locate the jane_admin user in the _ADMINS OU.
+
+Right-click on jane_admin, select Add to a group, and add it to the Domain Admins group.
+
+Log out of the DC-1 server and log back in as jane_admin (using the credentials mydomain.com\jane_admin).
 </p>
 <br />
 
