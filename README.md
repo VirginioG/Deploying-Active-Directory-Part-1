@@ -110,6 +110,19 @@ Log out of the DC-1 server and log back in as jane_admin (using the credentials 
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+On Client-1, log in as the local admin user (labuser).
+Go to Control Panel > System and Security > System and select Change settings under Computer name, domain, and workgroup settings.
+
+Click Change, select Domain, and enter mydomain.com.
+
+When prompted, enter the credentials for a domain admin (e.g., jane_admin).
+
+Restart Client-1 after the domain join process is complete.
+
+On DC-1, open ADUC and verify that Client-1 appears in the domain.
+
+In ADUC, right-click on mydomain.com, select New > Organizational Unit, and create an OU named _CLIENTS.
+
+Drag Client-1 into the _CLIENTS OU.
 </p>
 <br />
