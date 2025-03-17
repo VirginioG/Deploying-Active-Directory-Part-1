@@ -8,7 +8,7 @@ This tutorial guides you through setting up a Domain Controller (DC) using Activ
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
+- ### [Deploying-Active-Directory-Part-1](https://youtu.be/kdiHus6eiRc?si=aAm-g_4NeCuBEfsZ)
 
 <h2>Environments and Technologies Used</h2>
 
