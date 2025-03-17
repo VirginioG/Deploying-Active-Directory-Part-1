@@ -44,7 +44,27 @@ This tutorial guides you through setting up a Domain Controller (DC) using Activ
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Access the DC-1 server.
+
+Open Server Manager > Manage > Add Roles and Features.
+
+Choose Role-based or feature-based installation, then select Active Directory Domain Services.
+
+Follow the prompts to install AD DS.
+
+After installation, open Server Manager, and click on the Notification Flag.
+
+Select Promote this server to a domain controller.
+
+Choose Add a new forest and name it mydomain.com (or any other domain name you prefer).
+
+Set up Directory Services Restore Mode (DSRM) password and complete the wizard.
+
+Restart the server when prompted.
+
+After the restart, log into DC-1 as mydomain.com\labuser.
+
+
 </p>
 <br />
 
